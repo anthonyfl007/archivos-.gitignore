@@ -1,0 +1,17 @@
+Los archivos .gitignore son archivos utilizados por el sistema de control de versiones Git para especificar los archivos
+ y directorios que se deben ignorar y no incluir en el repositorio. Estos archivos son especialmente útiles cuando se trabaja en
+ un proyecto de desarrollo de software, ya que permiten eliminar archivos generados automáticamente, archivos compilados, 
+archivos de configuración local y otros tipos de archivos que no deben formar parte del repositorio.
+
+Algunos ejemplos de archivos .gitignore son:
+
+1. .DS_Store: Este archivo es creado por el sistema operativo macOS
+ y contiene información sobre la presentación de una carpeta. 
+No es necesario incluirlo en un repositorio de Git.
+DS_Store (ignora el archivo .DS_Store que crea macOS) 
+ 
+2. node_modules/: Esta carpeta contiene las dependencias de un proyecto de Node.js.
+ Como estas dependencias pueden ser instaladas de nuevo en cualquier momento a través
+ de un archivo de configuración, no es necesario incluirlas en el repositorio de Git. 
+
+node_modules/ (ignora la carpeta node_modules)
